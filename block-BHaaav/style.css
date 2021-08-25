@@ -1,0 +1,123 @@
+
+html, body, div, span, applet, object, iframe,
+h1h, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.hero{
+    background-color: rgb(2, 2, 34);
+    text-align: center;
+    
+}
+body{
+    line-height: 2;
+    font-size: 18px;
+    color: white;
+}
+.container{
+           width: 1200px;
+           margin: auto;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 14px;
+}
+header a{
+    font-size: 24px;
+    color: white;
+    margin: 16px;
+    text-transform: uppercase;
+    padding: 30px;
+}
+.color{
+    background-color: rgb(2, 2, 34);
+    color: white;
+    padding: 80px;
+}
+h2{
+    font-size: 64px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 40%;
+}
+.article{
+    background-color: rgb(76, 92, 150);
+    font-size: 50px;
+    
+    
+    
+}
+h3{
+    text-align: left;
+    margin-left: 80px;
+}
+p{
+    font-size: 24px;text-align: left;
+    margin-left: 80px;
+    padding: 10px;
+}
+h4{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 83px;
+}
+.article-two{
+    background-color: rgb(69, 85, 141)
+}
+.article-three{
+    background-color: rgb(63, 78, 133) ;
+}
+footer{
+    background-color: rgb(2, 2, 34);
+    height: 70px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+img{
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+
