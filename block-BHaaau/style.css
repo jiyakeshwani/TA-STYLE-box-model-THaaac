@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1h, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	line-height: 1.4;
+	padding: 210px;
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+	padding: 40px 180px;
+}
+hr{
+	width: 490px;
+	border-style: dotted;
+	border-color: gray;
+	margin: 32px auto;
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+	margin: 33px;
+}
+
+.box{
+	width: 220px;
+	height: 220px;
+	background-color: #aedd13;
+    margin: 0 auto;
+	border: 20px solid rgb(97, 97, 233);
+	outline: 10px solid black;
+	box-shadow:0 0 0 30px solid #ed7f80 ;
+	
+}
+.marker-container{
+	text-align: center;
+	margin: 60px;
+}
+.circle{
+	width: 20px;
+	height: 20px;
+	
+	background-color:#bdf30a ;
+	display: inline-block;
+
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.padding{
+	background-color:  rgb(81, 81, 224);
+}
+.border{
+	background-color: black;
+}
+.margin{
+	background-color: rgb(219, 86, 86);
+}
+.marker{
+	margin: 0 16px;
+	display: inline-block;
+}
+p{
+	text-align: center;
+	font-size: 26px;
+}
+.container{
+	width: 3oopx;
+	border: 1px solid gray;
+	margin: 80px;
+	font-size: 0%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 250px;
+    
+}
+.child-box{
+	width: 180px;
+	height: 100px;
+	margin: 10px;
+	background-color: gray;
+	display: inline-block;
+    text-align: center;
+}
+
+.child-box-border{
+    width: 180px;
+	height: 100px;
+	margin: 10px;
+	background-color: gray;
+	display: inline-block;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.child-box-sameline{
+    width: 180px;
+	height: 100px;
+	margin: 10px;
+	background-color: gray;
+	display: inline-block;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+}
+
